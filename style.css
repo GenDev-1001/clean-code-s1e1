@@ -1,11 +1,5 @@
 /* Basic Style */
 
-body {
-  background-color: #f8f8f8;
-  color: #333;
-  font-family: Lato, sans-serif;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -21,7 +15,7 @@ button {
   outline: none;
 }
 
-button {
+.button {
   background: none;
   border: 0;
   color: #888;
@@ -31,8 +25,15 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3a3a;
+}
+
+.page {
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
+  height: 100vh;
 }
 
 .header {
